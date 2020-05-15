@@ -1,0 +1,61 @@
+/* footer */
+
+position: absolute;
+width: 1920px;
+height: 111px;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 1920px;
+height: 111px;
+
+background: #373737;
+
+
+/* Stark Company © 2020 */
+
+position: absolute;
+width: 247px;
+height: 43px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* icon 1 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+
+background: url(icon.png);
+
+
+/* icon (1) 1 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+
+background: url(icon (1).png);
+
+
+/* icon (2) 1 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+
+background: url(icon (2).png);
