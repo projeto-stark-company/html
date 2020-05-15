@@ -1,0 +1,43 @@
+/* Colete */
+
+position: absolute;
+width: 820px;
+height: 645px;
+left: 965px;
+top: 253px;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 820px;
+height: 645px;
+left: 965px;
+top: 253px;
+
+background: linear-gradient(270deg, rgba(207, 207, 207, 0.2) 0%, rgba(196, 196, 196, 0) 100%);
+
+
+/* Line 2 */
+
+position: absolute;
+width: 645px;
+height: 0px;
+left: 1785px;
+top: 253px;
+
+border: 10px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+transform: rotate(90deg);
+
+
+/* image 5 */
+
+position: absolute;
+width: 512px;
+height: 580px;
+left: 1251px;
+top: 284px;
+
+background: url(image.png);
