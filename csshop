@@ -1,0 +1,399 @@
+/* Frame 5 */
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #0A0909;
+
+
+/* image 8 */
+
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 1922px;
+height: 1080px;
+left: -2px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(49.77% 50% at 49.77% 50%, rgba(220, 220, 220, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+
+
+/* LogoF */
+
+position: absolute;
+width: 1920px;
+height: 115px;
+left: 0px;
+top: 0px;
+
+
+
+/* LOGO */
+
+position: absolute;
+width: 344px;
+height: 62px;
+left: 303px;
+top: 42px;
+
+
+
+/* Vector 3 */
+
+position: absolute;
+width: 334.84px;
+height: 20px;
+left: 303px;
+top: 84px;
+
+background: #751313;
+
+
+/* STARK COMPANY */
+
+position: absolute;
+width: 344px;
+height: 42px;
+left: 303px;
+top: 42px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 2 */
+
+position: absolute;
+width: 618px;
+height: 35.19px;
+left: 1140px;
+top: 49px;
+
+
+
+/* Início */
+
+position: absolute;
+width: 110.83px;
+height: 34.77px;
+left: 1140px;
+top: 49px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Shop */
+
+position: absolute;
+width: 110.83px;
+height: 34.77px;
+left: 1309.27px;
+top: 49px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Suporte */
+
+position: absolute;
+width: 110.83px;
+height: 34.77px;
+left: 1478.53px;
+top: 49px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Sobre Nós */
+
+position: absolute;
+width: 110.83px;
+height: 34.77px;
+left: 1647.17px;
+top: 49.41px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 1920px;
+height: 115px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #FF4A4A -31.3%, rgba(255, 86, 86, 0.927083) -31.29%, rgba(94, 62, 62, 0) 100%);
+
+
+/* Produtos */
+
+position: absolute;
+width: 473px;
+height: 99px;
+left: 723px;
+top: 214px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 88px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+border: 1px solid #000000;
+
+
+/* Group 3 */
+
+position: absolute;
+width: 1062px;
+height: 339px;
+left: 428px;
+top: 411px;
+
+
+
+/* image 10 */
+
+position: absolute;
+width: 290px;
+height: 265px;
+left: calc(50% - 290px/2 - 97px);
+top: calc(50% - 265px/2 + 4.5px);
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* image 12 */
+
+position: absolute;
+width: 290px;
+height: 265px;
+left: calc(50% - 290px/2 + 289px);
+top: calc(50% - 265px/2 + 4.5px);
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* image 5 */
+
+position: absolute;
+width: 290px;
+height: 265px;
+left: 1200px;
+top: 411px;
+
+background: url(image.png);
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 290px;
+height: 73px;
+left: 428px;
+top: 677px;
+
+background: rgba(196, 196, 196, 0.2);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 290px;
+height: 73px;
+left: 814px;
+top: 677px;
+
+background: rgba(196, 196, 196, 0.2);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 290px;
+height: 73px;
+left: 1200px;
+top: 676px;
+
+background: rgba(196, 196, 196, 0.2);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Cinto Tático Modular */
+
+position: absolute;
+width: 290px;
+height: 71px;
+left: 428px;
+top: 678px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* Colete Tático Chest Rig */
+
+position: absolute;
+width: 290px;
+height: 72px;
+left: 815px;
+top: 678px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* Colete ARK I */
+
+position: absolute;
+width: 290px;
+height: 67px;
+left: 1200px;
+top: 682px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* Botsaiba */
+
+position: absolute;
+width: 228px;
+height: 49px;
+left: 846px;
+top: 806px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 228px;
+height: 49px;
+left: 846px;
+top: 806px;
+
+border: 3px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+
+
+/* Saiba Mais */
+
+position: absolute;
+width: 228px;
+height: 47.22px;
+left: 846px;
+top: 807.78px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
