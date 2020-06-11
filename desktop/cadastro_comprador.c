@@ -27,28 +27,28 @@ int main()
 cadastro:
 
     printf("Digite o nome do consumidor: ");
-    scanf("%79[^\n]", &nome);
+    scanf("%[^\n]%*c", &nome);
 
     printf("\nDigite o CPF do consumidor: ");
-    scanf("%19[^\n]", &cpf);
+    scanf("%[^\n]%*c", &cpf);
 
     printf("\nDigite o RG do consumidor: ");
-    scanf("%19[^\n]", &rg);
+    scanf("%[^\n]%*c", &rg);
 
     printf("\nDigite o endereco do consumidor: ");
-    scanf("%99[^\n]", &endereco);
+    scanf("%[^\n]%*c", &endereco);
 
     printf("\nDigite a cidade do consumidor: ");
-    scanf("%79[^\n]", &cidade);
+    scanf("%[^\n]%*c", &cidade);
 
     printf("\nDigite a UF do estado do consumidor: ");
-    scanf("%2[^\n]", &uf);
+    scanf("%[^\n]%*c", &uf);
 
     printf("\nDigite o email do consumidor: ");
-    scanf("%100[^\n]", &email);
+    scanf("%[^\n]%*c", &email);
 
     printf("\nDigite o telefone do consumidor: ");
-    scanf("%19[^\n]", &telefone);
+    scanf("%[^\n]%*c", &telefone);
 
 funcionario:
 
@@ -63,14 +63,14 @@ funcionario:
     printf("CONFIRMAÇÃO DE INFORMAÇÃO\n");
     printf("----------------------\n");
 
-    printf("Nome: %s", &nome);
-    printf("CPF: %s", &cpf);
-    printf("RG: %s", &rg);
-    printf("Endereco: %s", &endereco);
-    printf("Cidade: %s", &cidade);
-    printf("UF: %s", &uf);
-    printf("Email: %s", &email);
-    printf("Telefone: %s", &telefone);
+    printf("\nNome: %s", &nome);
+    printf("\nCPF: %s", &cpf);
+    printf("\nRG: %s", &rg);
+    printf("\nEndereco: %s", &endereco);
+    printf("\nCidade: %s", &cidade);
+    printf("\nUF: %s", &uf);
+    printf("\nEmail: %s", &email);
+    printf("\nTelefone: %s", &telefone);
 
     //VERIFICA QUAL FUNCIONÁRIO FOI SELECONADO
     switch (codigo_empregado)
@@ -94,7 +94,7 @@ funcionario:
     //VERIFICA SE FUNCIONÁRIO QUE ESTÁ ADTRANDO O CONSUMIDOR DESEJA ALTERAR
     //ALGUMA INFORMAÇÃO
     printf("\nApós conferir os dados que serão cadastrados, deseja corrigir alguma informação? (s/n)");
-    scanf("%2[^\n]", &confirmacao);
+    scanf("%[^\n]%*c", &confirmacao);
 
     if (strcmp("s", confirmacao) == 0 || strcmp("S", confirmacao) == 0)
     {
