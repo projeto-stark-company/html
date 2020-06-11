@@ -4,15 +4,15 @@
 #include <string.h>
 
 //VARIÁVEIS
-char nome[40];
-char cpf[15];
-char rg[15];
-char *endereco;
-char cidade[30];
-char uf[2];
+char nome[80];
+char cpf[20];
+char rg[20];
+char endereco[100];
+char cidade[80];
+char uf[3];
 char email[100];
-char telefone[15];
-char confirmacao[2];
+char telefone[20];
+char confirmacao[3];
 
 int codigo_empregado;
 
@@ -23,32 +23,32 @@ int main()
     printf("CADASTRO DE CONSUMIDOR\n");
     printf("----------------------\n");
 
-//MARCA O TRECHO DO CÓDIGO, CASO TENHA QUE SER REPETIDO
+//MARCA O TRECHO DO CÓDIGO, CASO TENHA QUE SER
 cadastro:
 
     printf("Digite o nome do consumidor: ");
-    scanf("%s", &nome);
+    scanf("%79[^\n]", &nome);
 
     printf("\nDigite o CPF do consumidor: ");
-    scanf("%s", &cpf);
+    scanf("%19[^\n]", &cpf);
 
     printf("\nDigite o RG do consumidor: ");
-    scanf("%s", &rg);
+    scanf("%19[^\n]", &rg);
 
     printf("\nDigite o endereco do consumidor: ");
-    scanf("%s", &endereco);
+    scanf("%99[^\n]", &endereco);
 
     printf("\nDigite a cidade do consumidor: ");
-    scanf("%s", &cidade);
+    scanf("%79[^\n]", &cidade);
 
     printf("\nDigite a UF do estado do consumidor: ");
-    scanf("%s", &uf);
+    scanf("%2[^\n]", &uf);
 
     printf("\nDigite o email do consumidor: ");
-    scanf("%s", &email);
+    scanf("%100[^\n]", &email);
 
     printf("\nDigite o telefone do consumidor: ");
-    scanf("%s", &telefone);
+    scanf("%19[^\n]", &telefone);
 
 funcionario:
 
@@ -94,7 +94,7 @@ funcionario:
     //VERIFICA SE FUNCIONÁRIO QUE ESTÁ ADTRANDO O CONSUMIDOR DESEJA ALTERAR
     //ALGUMA INFORMAÇÃO
     printf("\nApós conferir os dados que serão cadastrados, deseja corrigir alguma informação? (s/n)");
-    scanf("%s", &confirmacao);
+    scanf("%2[^\n]", &confirmacao);
 
     if (strcmp("s", confirmacao) == 0 || strcmp("S", confirmacao) == 0)
     {
